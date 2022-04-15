@@ -28,7 +28,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 # formatting errors
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
+gem 'better_errors', '~> 2.9'
 
 # bulma css
 gem 'bulma-rails', '~> 0.9.3'
@@ -71,7 +71,7 @@ group :development do
 gem 'guard', '~> 2.18'
 
 #Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
